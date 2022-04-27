@@ -1,0 +1,79 @@
+body {
+  background-image: url("img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 400px;
+  margin: 10vh auto 0 auto;
+  background-image: url("img/images.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 20px 30px 40px 50px rgb(59, 52, 52);
+  border: 2px solid black;
+  border-radius: 10px;
+
+}
+
+.box {
+  position: relative;
+  height: 70px;
+  padding: 16px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#display {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  left: 10px;
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+  overflow-y: hidden;
+  text-align: right;
+  line-height: 70px;
+  padding: 10px 20px 40px 10px;
+  margin: 20px;
+  font-size: 25px;
+  background-color: rgb(253, 251, 251);
+  box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
+
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+}
+
+.button {
+  border: 0.5px solid #999;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  color: white;
+  background-image: linear-gradient(to left, rgb(70, 64, 64), black);
+  box-shadow: 3px 4px 5px 6px black;
+  border: none;
+  border-radius: 10px;
+  margin: 20px 15px;
+
+}
+
+#equal {
+  background-color: rgb(85, 85, 255);
+  color: white;
+}
+
+.button:hover {
+  background-color: #323330;
+  color: white;
+  transition: 0.1s ease-in-out;
+}
